@@ -1,6 +1,6 @@
 # 🏙️ Bangalore Price Prediction – Your Gateway to Smart Real Estate Decisions
 
-![Project Logo](logo.png)
+![Project Logo](PriceWise.png)
 
 Welcome to the **Bangalore Price Prediction** project! This platform leverages advanced machine learning techniques to forecast property prices in Bangalore with impressive accuracy. Whether you’re a homebuyer, seller, or investor, our model is here to empower your decisions with data-driven insights. Embrace the future of real estate with our state-of-the-art predictive engine! 🏡📈
 
@@ -87,6 +87,19 @@ python app.py
 Once the server is running, open your browser and navigate to:
 
 http://127.0.0.1:5000/
+
+## About Section
+
+Our advanced machine learning model predicts real estate prices in Bangalore based on key factors like location, area, number of BHKs, and bathrooms. It leverages historical data and modern algorithms to provide accurate price estimates, helping users make informed property decisions. The model is continuously updated with new data to improve its prediction accuracy. This tool is ideal for both home buyers and real estate investors who need quick and reliable property valuations.
+
+![About Section](About.png)
+
+## Working and Features
+
+The process is optimized for speed and accuracy, ensuring you receive a reliable estimate in seconds. This seamless integration of data processing and prediction technology forms the backbone of our tool.
+
+![About Section](Working.png)
+
 
 ## 🎊 Conclusion
 
