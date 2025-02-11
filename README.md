@@ -6,6 +6,10 @@ Welcome to the **Bangalore Price Prediction** project! This platform leverages a
 
 ---
 
+## 🔗 Live Demo  
+🎥 Watch the demo: [Click Here](priceprediction.mp4)  
+
+---
 ## 🔍 About the Project
 
 The **Bangalore Price Prediction** project is designed to tackle the complexities of the dynamic Bangalore real estate market. By analyzing historical property data—incorporating details like area (in sq. ft.), number of BHKs, bathrooms, and location—the model provides accurate price estimates that reflect real market conditions.
