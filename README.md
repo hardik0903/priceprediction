@@ -59,8 +59,8 @@ Kick off your prediction journey by entering property details through our intuit
 View comprehensive prediction outputs along with key performance metrics:
 ![Prediction Results](result.png)
 
-### Market Insights
-Explore visual representations of market trends and data insights:
+### Banglore City
+Use of Banglore city images to make a effect on Website
 ![Market Insights](14.jpg)
 
 ---
