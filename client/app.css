@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background: url('14.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Logo at Top Left */
+.logo {
+    position: fixed;
+    top: 10px;
+    left: 50px;
+    width: 120px;  /* Increased logo size */
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Header and Motto */
+.header {
+    margin-top: 80px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFD700;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+
+.motto {
+    font-size: 20px;
+    color: #ffeb3b;
+    margin-bottom: 40px;
+}
+
+/* Form Styling */
+.form {
+    width: 40%;
+    margin: 20px auto 50px auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.form h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.form input, .form select {
+    width: 90%;
+    padding: 12px;
+    margin-top: 5px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.7);
+    color: #333;
+}
+.form button {
+    width: 92%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s ease-in-out;
+}
+.form button:hover {
+    background-color: #45a049;
+}
+.result, .result h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffeb3b;
+}
+
+/* Scroll Down Indicator */
+#scrollDown {
+    cursor: pointer;
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(10px); }
+    60% { transform: translateY(5px); }
+}
+
+/* Common Animated Section Styling */
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+.animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* About Section Styling */
+.about-section {
+    width: 90%;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.about-section h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #FFD700;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+}
+.about-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: left;
+}
+.about-section .links a {
+    color: #0077B5;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: transform 0.3s, text-shadow 0.3s;
+}
+.about-section .links a.github {
+    color: #1DB954;
+}
+.about-section .links a:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Info Sections (How It Works, Key Features) */
+.info-section {
+    width: 90%;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(20, 20, 20, 0.8);
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.info-section h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #00FFFF;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+}
+.info-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: left;
+}
+
+/* Social Links Section (Below Key Features) */
+.social-links {
+    margin: 30px auto 50px auto;
+    text-align: center;
+}
+.social-links a {
+    color: #0077B5;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: transform 0.3s, text-shadow 0.3s;
+}
+.social-links a.github {
+    color: #1DB954;
+}
+.social-links a:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}

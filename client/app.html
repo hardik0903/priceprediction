@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bangalore Home Price Prediction - PriceWise</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <!-- Logo at Top Left (clickable to scroll to top) -->
+    <img src="logo.png" alt="Logo" class="logo" onclick="scrollToTop()">
+    
+    <!-- Header with Title and Motto -->
+    <div class="header">PriceWise</div>
+    <div class="motto">Predict Your Dream House Price in Bangalore</div>
+    
+    <!-- Price Prediction Form -->
+    <form class="form">
+        <h2>Area (Square Feet)</h2>
+        <input class="area" type="number" id="uiSqft" name="Squareft" value="1000">
+    
+        <h2>BHK</h2>
+        <input type="number" id="uiBHK" name="BHK" value="2" min="1">
+    
+        <h2>Bath</h2>
+        <input type="number" id="uiBathrooms" name="Bathrooms" value="2" min="1">
+    
+        <h2>Location</h2>
+        <div>
+            <select class="location" id="uiLocations">
+                <option value="" disabled selected>Choose a Location</option>
+                <option>Electronic City</option>
+                <option>Rajaji Nagar</option>
+                <option>1st block jayanagar</option>
+            </select>
+        </div>
+    
+        <button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+        <div id="uiEstimatedPrice" class="result"><h2></h2></div>
+    </form>
+    
+    <!-- Scroll Down Indicator -->
+    <div id="scrollDown">
+        <span style="font-size: 2em;">&#x25BC;</span>
+    </div>
+    
+    <!-- About Section -->
+    <div class="about-section animate-on-scroll" id="about">
+        <h2>Bangalore City Price Prediction Model</h2>
+        <p>
+            Our advanced machine learning model predicts real estate prices in Bangalore based on key factors like location, area, number of BHKs, and bathrooms.
+            It leverages historical data and modern algorithms to provide accurate price estimates, helping users make informed property decisions.
+            The model is continuously updated with new data to improve its prediction accuracy.
+            This tool is ideal for both home buyers and real estate investors who need quick and reliable property valuations.
+        </p>
+        <div class="links">
+            <a class="linkedin" href="https://www.linkedin.com/in/hardik-pandey-4a836628a/" target="_blank">LinkedIn</a>
+            <a class="github" href="https://github.com/hardik0903" target="_blank">GitHub</a>
+        </div>
+    </div>
+    
+    <!-- How It Works Section -->
+    <div class="info-section animate-on-scroll" id="how-it-works">
+        <h2>How It Works</h2>
+        <p>
+            Our system collects and preprocesses data from various real estate sources in Bangalore.
+            User inputs are normalized and fed into our trained machine learning model, which then predicts the property price in real time.
+            The process is optimized for speed and accuracy, ensuring you receive a reliable estimate in seconds.
+            This seamless integration of data processing and prediction technology forms the backbone of our tool.
+        </p>
+    </div>
+    
+    <!-- Key Features Section -->
+    <div class="info-section animate-on-scroll" id="features">
+        <h2>Key Features</h2>
+        <p>
+            • Accurate predictions using extensive historical data<br>
+            • User-friendly interface for quick and easy estimation<br>
+            • Continuous model updates for improved accuracy<br>
+            • Smooth and engaging scroll animations for an enhanced user experience
+        </p>
+    </div>
+    
+    <!-- Social Links Section (Below Key Features) -->
+    <div class="social-links animate-on-scroll" id="social-links">
+        <a class="linkedin" href="https://www.linkedin.com/in/hardik-pandey-4a836628a/" target="_blank">LinkedIn</a>
+        <a class="github" href="https://github.com/hardik0903" target="_blank">GitHub</a>
+    </div>
+</body>
+</html>

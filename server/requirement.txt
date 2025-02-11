@@ -1,0 +1,6 @@
+Flask
+numpy
+scikit-learn
+matplotlib
+json
+flask
