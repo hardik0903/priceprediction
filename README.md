@@ -4,6 +4,8 @@
 
 Welcome to the **Bangalore Price Prediction** project! This platform leverages advanced machine learning techniques to forecast property prices in Bangalore with impressive accuracy. Whether you’re a homebuyer, seller, or investor, our model is here to empower your decisions with data-driven insights. Embrace the future of real estate with our state-of-the-art predictive engine! 🏡📈
 
+![UI of Website](ui.png)
+
 ---
 
 ## 🔗 Live Demo  
