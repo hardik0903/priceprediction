@@ -77,8 +77,8 @@ To set up the project locally, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/hardik0903/Bangalore-Price-Prediction.git
-   cd Bangalore-Price-Prediction
+   git clone https://github.com/hardik0903/priceprdiction.git
+   cd priceprdiction
 
 2. **Install Dependencies:**
    ```bash
