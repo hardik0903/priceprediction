@@ -80,9 +80,7 @@ To set up the project locally, follow these steps:
    git clone https://github.com/hardik0903/Bangalore-Price-Prediction.git
    cd Bangalore-Price-Prediction
 
-2. **Install Dependencies**
-
-1. **Clone the Repository:**
+2. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
 
