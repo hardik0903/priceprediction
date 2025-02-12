@@ -82,13 +82,14 @@ To set up the project locally, follow these steps:
 
 2. **Install Dependencies**
 
-pip install -r requirements.txt
+1. **Clone the Repository:**
+   ```bash
+   pip install -r requirements.txt
 
 3. **Start the Application**
-
 Finally, start the application by running:
-
-python app.py
+   ```bash
+   python app.py
 
 Once the server is running, open your browser and navigate to:
 
